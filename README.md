@@ -23,7 +23,7 @@ pip install cryptography
 Перед шифрованием или дешифрованием необходимо сгенерировать пару ключей (приватный и публичный). Для этого выберите действие `G` при запуске скрипта:
 
 ```bash
-python script_name.py
+python Code-and-Keys.py
 ```
 
 Затем введите `G` и нажмите Enter. Ключи будут сгенерированы и сохранены в файлы `private_key.pem` и `public_key.pem` в текущем каталоге.
@@ -35,7 +35,7 @@ python script_name.py
 Пример запуска:
 
 ```bash
-python script_name.py
+python Code-and-Keys.py
 ```
 
 Затем введите `E`, укажите путь к файлу, например:
@@ -53,7 +53,7 @@ python script_name.py
 Пример запуска:
 
 ```bash
-python script_name.py
+python Code-and-Keys.py
 ```
 
 Затем введите `D`, укажите путь к зашифрованному файлу, например:
